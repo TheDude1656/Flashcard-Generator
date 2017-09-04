@@ -1,0 +1,1 @@
+{"partial":"...was the first president","cloze":"george washington","full":"george washington was the first president"}

@@ -1,14 +1,13 @@
-var inquirer = require("inquirer");
-var BasicCard = require("./BasicCard");
-var ClozeCard = require("./ClozeCard");
+var input = process.argv[2];
 
+if (input === "basic") {
+  var basic = require("./BasicCard");
+  basic();
 
-var firstPresident = new BasicCard("Who was the first president of the United States?", "George Washington");
+} else if (input === "cloze") {
+  var cloze = require("./ClozeCard");
+  cloze();
 
-console.log(firstPresident.question);
-console.log(firstPresident.answer);
-
-var firstPresidentCloze = new ClozeCard("George Washington was the first president of the United States.", "George Washington");
-
-console.log(firstPresidentCloze.text);
-console.log(firstPresidentCloze.cloze);
+} else {
+  console.log("Please use basic or cloze as options to run!");
+}
