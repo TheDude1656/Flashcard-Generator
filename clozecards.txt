@@ -1,1 +1,2 @@
 {"partial":"...was the first president","cloze":"george washington","full":"george washington was the first president"}
+{"partial":"...is the current president","cloze":"donald trump","full":"donald trump is the current president"}

@@ -1,2 +1,1 @@
-{"question":"abc","answer":"d"}
-{"question":"123","answer":"4"}
+{"question":"who was the first president","answer":"george washington"}
